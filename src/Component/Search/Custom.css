@@ -1,0 +1,12 @@
+.custom-btn{
+    background: rgba(245, 245, 245, 0.1);
+    border-radius: 50px;
+    border: 0 !important;
+    width: 238px;
+    height: 39px;
+    left: 142px;
+    top: 62px;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+}

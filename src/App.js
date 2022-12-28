@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import MainNavbar from "./Component/Navbar/MainNavbar";
+import Search from "./Component/Search/Search";
 
+document.body.style = "background: #0F0E12;";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ background: "#0F0E12" }} className="text-white">
+      <div style={{ paddingBottom: "200px" }}>
+        <div className="mb-5">
+          <MainNavbar />
+        </div>
+        <div className="container mx-auto mt-5">
+          <Search />
+        </div>
+      </div>
     </div>
   );
 }
